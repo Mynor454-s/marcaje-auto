@@ -1,0 +1,16 @@
+{
+  "name": "marcaje-auto",
+  "version": "1.0.0",
+  "description": "Automatización de marcaje virtual - Portal RRHH",
+  "type": "module",
+  "scripts": {
+    "entrada": "node index.js entrada",
+    "salida": "node index.js salida",
+    "test": "node index.js test"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.59.1"
+  }
+}
