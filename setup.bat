@@ -1,4 +1,9 @@
 @echo off
+setlocal
+
+REM Desactiva validacion SSL solo durante este script (entornos con certificados corporativos/proxy)
+set "NODE_TLS_REJECT_UNAUTHORIZED=0"
+
 echo ============================================
 echo   Setup - Marcaje Automatico
 echo ============================================
